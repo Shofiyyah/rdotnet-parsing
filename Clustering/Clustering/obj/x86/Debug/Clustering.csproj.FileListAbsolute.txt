@@ -1,0 +1,34 @@
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\bin\Debug\Clustering.exe
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\bin\Debug\Clustering.pdb
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\obj\x86\Debug\Clustering.Form1.resources
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\obj\x86\Debug\Clustering.Properties.Resources.resources
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\obj\x86\Debug\Clustering.csproj.GenerateResource.Cache
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\obj\x86\Debug\Clustering.exe
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\obj\x86\Debug\Clustering.pdb
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\obj\x86\Debug\Clustering.csprojResolveAssemblyReference.cache
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\bin\Debug\DynamicInterop.dll
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\bin\Debug\RDotNet.dll
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\bin\Debug\RDotNet.NativeLibrary.dll
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\bin\Debug\DynamicInterop.xml
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\bin\Debug\RDotNet.xml
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\bin\Debug\RDotNet.NativeLibrary.xml
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\obj\x86\Debug\Clustering.Form2.resources
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\obj\x86\Debug\Clustering.Form3.resources
+D:\SKRIPSI - Amal Jariyah untuk Allah Ta'ala\Penulisan Skripsi\Clustering\Clustering\obj\x86\Debug\Clustering.Form4.resources
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.exe
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.pdb
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\bin\Debug\Clustering.exe
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\bin\Debug\Clustering.pdb
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\bin\Debug\DynamicInterop.dll
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\bin\Debug\RDotNet.dll
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\bin\Debug\RDotNet.NativeLibrary.dll
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\bin\Debug\DynamicInterop.xml
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\bin\Debug\RDotNet.xml
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\bin\Debug\RDotNet.NativeLibrary.xml
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.csprojResolveAssemblyReference.cache
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.Form1.resources
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.Form4.resources
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.Form2.resources
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.Properties.Resources.resources
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.Form3.resources
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.csproj.GenerateResource.Cache
