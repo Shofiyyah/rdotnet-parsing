@@ -1,6 +1,6 @@
 ﻿namespace Clustering
 {
-    partial class Form2
+    partial class KMeansForm
     {
         /// <summary>
         /// Required designer variable.
@@ -76,7 +76,7 @@
             this.button1.Text = "Apply";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // Form2
+            // KMeansForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -86,7 +86,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
+            this.Name = "KMeansForm";
             this.Text = "KMeans Clustering";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);

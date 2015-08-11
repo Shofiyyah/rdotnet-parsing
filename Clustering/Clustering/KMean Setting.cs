@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace Clustering
 {
-    public partial class Form2 : Form
+    public partial class KMeansForm : Form
     {
-        public Form2()
+        public KMeansForm()
         {
             InitializeComponent();
         }
@@ -19,6 +19,17 @@ namespace Clustering
         private void Form2_Load(object sender, EventArgs e)
         {
 
+        }
+
+        public int getCentro() {
+            return Convert.ToInt32(textBox1.Text);
+        }
+        public int getItter()
+        {
+            return Convert.ToInt32(textBox2.Text);
+        }
+        public Button getApply() {
+            return button1;
         }
     }
 }

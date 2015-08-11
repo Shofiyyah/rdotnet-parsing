@@ -9,13 +9,16 @@ using System.Windows.Forms;
 
 namespace Clustering
 {
-    public partial class Form4 : Form
+    public partial class FaForm : Form
     {
-        public Form4()
+        public FaForm()
         {
             InitializeComponent();
         }
 
-        
+        public ComboBox getCombo() { return comboBox1; }
+        public Button getApply() { return button2; }
+        public int getNumberFactor() { return Convert.ToInt32(textBox1.Text); }
+        public Boolean getRotate() { return checkBox3.Checked; }
     }
 }

@@ -54,11 +54,16 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.faDiagram = new System.Windows.Forms.PictureBox();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.numberFactorDiagram = new System.Windows.Forms.PictureBox();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.convergenceKPlot = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.clusterKPlot = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -67,12 +72,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.KClusterGrid = new System.Windows.Forms.DataGridView();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.convPPlot = new System.Windows.Forms.PictureBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.clusterPPlot = new System.Windows.Forms.PictureBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.PClusterGrid = new System.Windows.Forms.DataGridView();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -86,24 +93,40 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.communGrid = new System.Windows.Forms.DataGridView();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.groupBox12.SuspendLayout();
+            this.groupBox11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.faDiagram)).BeginInit();
+            this.groupBox10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numberFactorDiagram)).BeginInit();
+            this.groupBox9.SuspendLayout();
             this.tabPage4.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.convergenceKPlot)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.clusterKPlot)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KClusterGrid)).BeginInit();
             this.tabPage5.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.convPPlot)).BeginInit();
+            this.groupBox7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.clusterPPlot)).BeginInit();
             this.groupBox6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PClusterGrid)).BeginInit();
             this.groupBox5.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.communGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -308,6 +331,7 @@
             // 
             // groupBox12
             // 
+            this.groupBox12.Controls.Add(this.communGrid);
             this.groupBox12.Location = new System.Drawing.Point(10, 310);
             this.groupBox12.Name = "groupBox12";
             this.groupBox12.Size = new System.Drawing.Size(353, 105);
@@ -317,6 +341,7 @@
             // 
             // groupBox11
             // 
+            this.groupBox11.Controls.Add(this.faDiagram);
             this.groupBox11.Location = new System.Drawing.Point(7, 415);
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.Size = new System.Drawing.Size(363, 145);
@@ -324,8 +349,17 @@
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Factors Diagram";
             // 
+            // faDiagram
+            // 
+            this.faDiagram.Location = new System.Drawing.Point(8, 17);
+            this.faDiagram.Name = "faDiagram";
+            this.faDiagram.Size = new System.Drawing.Size(347, 127);
+            this.faDiagram.TabIndex = 0;
+            this.faDiagram.TabStop = false;
+            // 
             // groupBox10
             // 
+            this.groupBox10.Controls.Add(this.numberFactorDiagram);
             this.groupBox10.Location = new System.Drawing.Point(7, 146);
             this.groupBox10.Name = "groupBox10";
             this.groupBox10.Size = new System.Drawing.Size(363, 155);
@@ -333,14 +367,31 @@
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Number of Factors";
             // 
+            // numberFactorDiagram
+            // 
+            this.numberFactorDiagram.Location = new System.Drawing.Point(5, 17);
+            this.numberFactorDiagram.Name = "numberFactorDiagram";
+            this.numberFactorDiagram.Size = new System.Drawing.Size(352, 132);
+            this.numberFactorDiagram.TabIndex = 0;
+            this.numberFactorDiagram.TabStop = false;
+            // 
             // groupBox9
             // 
+            this.groupBox9.Controls.Add(this.richTextBox1);
             this.groupBox9.Location = new System.Drawing.Point(7, 7);
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.Size = new System.Drawing.Size(363, 133);
             this.groupBox9.TabIndex = 0;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "MSA Value";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(9, 17);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(346, 112);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "";
             // 
             // tabPage4
             // 
@@ -358,21 +409,39 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Location = new System.Drawing.Point(9, 447);
+            this.groupBox4.Controls.Add(this.convergenceKPlot);
+            this.groupBox4.Location = new System.Drawing.Point(9, 438);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(349, 113);
+            this.groupBox4.Size = new System.Drawing.Size(349, 122);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Convergence";
             // 
+            // convergenceKPlot
+            // 
+            this.convergenceKPlot.Location = new System.Drawing.Point(6, 12);
+            this.convergenceKPlot.Name = "convergenceKPlot";
+            this.convergenceKPlot.Size = new System.Drawing.Size(334, 110);
+            this.convergenceKPlot.TabIndex = 1;
+            this.convergenceKPlot.TabStop = false;
+            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.clusterKPlot);
             this.groupBox2.Location = new System.Drawing.Point(6, 312);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(352, 120);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Cluster Plot";
+            // 
+            // clusterKPlot
+            // 
+            this.clusterKPlot.Location = new System.Drawing.Point(8, 14);
+            this.clusterKPlot.Name = "clusterKPlot";
+            this.clusterKPlot.Size = new System.Drawing.Size(334, 104);
+            this.clusterKPlot.TabIndex = 0;
+            this.clusterKPlot.TabStop = false;
             // 
             // groupBox1
             // 
@@ -439,7 +508,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.dataGridView3);
+            this.groupBox3.Controls.Add(this.KClusterGrid);
             this.groupBox3.Location = new System.Drawing.Point(3, 138);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(355, 168);
@@ -447,14 +516,14 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Cluster Result";
             // 
-            // dataGridView3
+            // KClusterGrid
             // 
-            this.dataGridView3.AllowUserToOrderColumns = true;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(6, 19);
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.Size = new System.Drawing.Size(338, 139);
-            this.dataGridView3.TabIndex = 1;
+            this.KClusterGrid.AllowUserToOrderColumns = true;
+            this.KClusterGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.KClusterGrid.Location = new System.Drawing.Point(6, 19);
+            this.KClusterGrid.Name = "KClusterGrid";
+            this.KClusterGrid.Size = new System.Drawing.Size(338, 139);
+            this.KClusterGrid.TabIndex = 1;
             // 
             // tabPage5
             // 
@@ -471,15 +540,25 @@
             // 
             // groupBox8
             // 
-            this.groupBox8.Location = new System.Drawing.Point(18, 437);
+            this.groupBox8.Controls.Add(this.convPPlot);
+            this.groupBox8.Location = new System.Drawing.Point(18, 435);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(349, 113);
+            this.groupBox8.Size = new System.Drawing.Size(349, 128);
             this.groupBox8.TabIndex = 6;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Convergence";
             // 
+            // convPPlot
+            // 
+            this.convPPlot.Location = new System.Drawing.Point(8, 11);
+            this.convPPlot.Name = "convPPlot";
+            this.convPPlot.Size = new System.Drawing.Size(336, 113);
+            this.convPPlot.TabIndex = 1;
+            this.convPPlot.TabStop = false;
+            // 
             // groupBox7
             // 
+            this.groupBox7.Controls.Add(this.clusterPPlot);
             this.groupBox7.Location = new System.Drawing.Point(18, 311);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(352, 120);
@@ -487,9 +566,17 @@
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Cluster Plot";
             // 
+            // clusterPPlot
+            // 
+            this.clusterPPlot.Location = new System.Drawing.Point(8, 14);
+            this.clusterPPlot.Name = "clusterPPlot";
+            this.clusterPPlot.Size = new System.Drawing.Size(336, 104);
+            this.clusterPPlot.TabIndex = 0;
+            this.clusterPPlot.TabStop = false;
+            // 
             // groupBox6
             // 
-            this.groupBox6.Controls.Add(this.dataGridView4);
+            this.groupBox6.Controls.Add(this.PClusterGrid);
             this.groupBox6.Location = new System.Drawing.Point(15, 137);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(355, 168);
@@ -497,14 +584,14 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Cluster Result";
             // 
-            // dataGridView4
+            // PClusterGrid
             // 
-            this.dataGridView4.AllowUserToOrderColumns = true;
-            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Location = new System.Drawing.Point(6, 19);
-            this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.Size = new System.Drawing.Size(338, 139);
-            this.dataGridView4.TabIndex = 1;
+            this.PClusterGrid.AllowUserToOrderColumns = true;
+            this.PClusterGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.PClusterGrid.Location = new System.Drawing.Point(6, 19);
+            this.PClusterGrid.Name = "PClusterGrid";
+            this.PClusterGrid.Size = new System.Drawing.Size(338, 139);
+            this.PClusterGrid.TabIndex = 1;
             // 
             // groupBox5
             // 
@@ -629,6 +716,15 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(643, 592);
             this.tabControl1.TabIndex = 3;
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabChange);
+            // 
+            // communGrid
+            // 
+            this.communGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.communGrid.Location = new System.Drawing.Point(9, 16);
+            this.communGrid.Name = "communGrid";
+            this.communGrid.Size = new System.Drawing.Size(336, 84);
+            this.communGrid.TabIndex = 0;
             // 
             // Form1
             // 
@@ -652,14 +748,28 @@
             this.statusStrip1.PerformLayout();
             this.tabControl2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
+            this.groupBox12.ResumeLayout(false);
+            this.groupBox11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.faDiagram)).EndInit();
+            this.groupBox10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.numberFactorDiagram)).EndInit();
+            this.groupBox9.ResumeLayout(false);
             this.tabPage4.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.convergenceKPlot)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.clusterKPlot)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.KClusterGrid)).EndInit();
             this.tabPage5.ResumeLayout(false);
+            this.groupBox8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.convPPlot)).EndInit();
+            this.groupBox7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.clusterPPlot)).EndInit();
             this.groupBox6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PClusterGrid)).EndInit();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.tabPage2.ResumeLayout(false);
@@ -667,6 +777,7 @@
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.communGrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -706,7 +817,7 @@
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.DataGridView KClusterGrid;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.TextBox textBox3;
@@ -719,7 +830,7 @@
         private System.Windows.Forms.GroupBox groupBox8;
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.DataGridView dataGridView4;
+        private System.Windows.Forms.DataGridView PClusterGrid;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
@@ -731,6 +842,14 @@
         private System.Windows.Forms.GroupBox groupBox10;
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.GroupBox groupBox12;
+        private System.Windows.Forms.PictureBox faDiagram;
+        private System.Windows.Forms.PictureBox convergenceKPlot;
+        private System.Windows.Forms.PictureBox clusterKPlot;
+        private System.Windows.Forms.PictureBox convPPlot;
+        private System.Windows.Forms.PictureBox clusterPPlot;
+        private System.Windows.Forms.PictureBox numberFactorDiagram;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.DataGridView communGrid;
 
 
     }

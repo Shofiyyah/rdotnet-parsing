@@ -108,24 +108,21 @@ myPSO <- function(x, k, nItter, c1, c2, w) {
 }
 
 ## TEST PSO FUNCTION ##
-
 testPSO <- myPSO(y,k,101,c1,c2,w)
-testPSO$centroid
-testPSO$clusters
-testPSO$VarQE
 
 ### OUTPUT ###
 #Output Intracluster and Intercluster
 clsInteger <- as.integer(testPSO$clusters[[100]])
 Validcls <- cls.scatt.data(y,clsInteger)
 Intracls <- mean(Validcls$intracls.average) #Output show up in groupbox Validity
-preInter <- validcls$intercls.average ###NEW
+preInter <- Validcls$intercls.average ###NEW
 to.upper <- function(X) X[upper.tri(X,diag=FALSE)] ###NEW
-Intercls <- mean(to.upper(preInter))       ### EDITED: Output shop up in groupbox Validity
-testPSO$VarQE[[100]]                      #Output shop up in groupbox Validity
+Intercls <- mean(to.upper(preInter))       ### EDITED:Output shop up in groupbox Validity
+print("ASD"+Intercls)
+QuanzError <- testPSO$VarQE[[100]]                      #Output shop up in groupbox Validity
 Cluster <- matrix(unlist(testPSO$clusters[[100]]))
-cbind.data.frame(y,Cluster)                 #Output show up in cluster result dataview
-
+clusterResultDataView <- cbind.data.frame(y,Cluster)                 #Output show up in cluster result dataview
+clusterResultDataView[2:ncol(clusterResultDataView)]
 #Plot Convergence
 plot(unlist(testPSO$VarQE),type="n", main="Convergence", xlab="Iteration", ylab="Quantization Error")
 lines(unlist(testPSO$VarQE),type="o") #Output show up in groupbox convergence

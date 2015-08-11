@@ -11,10 +11,14 @@ library(fpc)
 
 ### INPUT ###
 nItter <- 10 #iteration
+
+
 k <- 3 #centroid
 x <- USArrests
-y <- iris[1:4]
-
+y <- read.xlsx("C:/temp/mydata.xls",1)
+y
+y <- y[2:ncol(y)]
+y
 ### METHOD ###
 myKmeans <- function(x, k, nItter) {
   #create random centroid
@@ -58,6 +62,7 @@ myKmeans <- function(x, k, nItter) {
 
 ## TEST KMEANS FUNCTION ##
 testKmeans <- myKmeans(y, 3, 10)
+testKmeans2 <- myKmeans(y, 5, 20)
 testKmeans$centroid
 testKmeans$clusters
 testKmeans$VarQE
@@ -70,7 +75,7 @@ Intracls <- mean(Validcls$intracls.average) #Intraclass
 preInter <- Validcls$intercls.average ###NEW
 to.upper <- function(X) X[upper.tri(X,diag=FALSE)] ###NEW
 Intercls <- mean(to.upper(preInter))       ###EDITED
-testKmeans$VarQE[[nItter]]                      #Quantization Error
+QuanzError <- testKmeans$VarQE[[nItter]]                      #Quantization Error
 Cluster <- matrix(unlist(testKmeans$clusters[[10]]))
 cbind.data.frame(as.matrix(row.names(y)),Cluster)    #cluster result dataview
 

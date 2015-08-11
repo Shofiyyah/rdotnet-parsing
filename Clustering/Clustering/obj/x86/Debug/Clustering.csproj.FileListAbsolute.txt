@@ -27,8 +27,8 @@ C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-K
 C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\bin\Debug\RDotNet.NativeLibrary.xml
 C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.csprojResolveAssemblyReference.cache
 C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.Form1.resources
-C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.Form4.resources
-C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.Form2.resources
 C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.Properties.Resources.resources
-C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.Form3.resources
 C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.csproj.GenerateResource.Cache
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.KMeansForm.resources
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.PSOForm.resources
+C:\Users\Thosan Girisona S\Documents\Visual Studio 2010\Projects\ParsisRdotNet-Kak Sofi\rdotnet-parsing\Clustering\Clustering\obj\x86\Debug\Clustering.FaForm.resources
